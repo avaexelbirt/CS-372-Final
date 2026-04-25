@@ -33,8 +33,8 @@ The original datasets were not paired. A weakly supervised dataset was construct
 
 - Matching resumes to job descriptions based on similarity between the resume category and job title  
 - Sampling multiple negative job examples randomly for each resume  
-
 This process transformed the raw data into a supervised ranking task, enabling the evaluation of model performance using standard retrieval metrics.
+
 ---
 
 ## Pre-trained Models
