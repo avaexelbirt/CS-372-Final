@@ -77,8 +77,15 @@ project/
   ATTRIBUTION.md
   README.md
   SETUP.md
+  requirements.txt
 ```
+---
 
+## Dependencies
+
+This project includes a `requirements.txt` file that lists all Python dependencies needed to run the notebook. These libraries are primarily used for data preprocessing, model building, and evaluation.
+
+While the project is designed to run in Google Colab (which installs most dependencies automatically), the `requirements.txt` file ensures reproducibility in other environments.
 
 ---
 
@@ -101,6 +108,7 @@ This project was completed collaboratively with shared responsibilities across a
 - **Ava:**
   - Wrote the `SETUP.md` file
   - Wrote the `README.md`
+  - Wrote the `requirements.txt` file
   - Organized the repository structure and uploads
 
 All components were collaboratively reviewed and revised to ensure consistency and correctness.
