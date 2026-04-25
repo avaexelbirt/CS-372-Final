@@ -23,8 +23,8 @@ This project takes a resume as input and ranks a set of job descriptions based o
 
 ## Video Links
 
-- **Project Demo:** [(add link here)](https://youtu.be/ci9cX-PPDNQ)
-- **Technical Walkthrough:** (add link here)
+- **Project Demo:** [(YouTube)](https://youtu.be/ci9cX-PPDNQ)
+- **Technical Walkthrough:** ([YouTube)](https://youtu.be/A0d5IiYUdtw)
 
 ---
 
