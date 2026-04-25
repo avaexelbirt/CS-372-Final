@@ -17,13 +17,24 @@ This project implements a hybrid resume-to-job matching system using TF-IDF simi
 - **Description:** A collection of resumes with associated category labels and raw resume text, used as the candidate pool for matching.
 - **Column(s) used:** `Resume_str`, `Category`, `ID`
 - **Source:** Kaggle
+  Link: https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
 
 ### Job Description Dataset
 - **File:** `job_title_des.csv`
 - **Description:** A collection of job postings with titles and descriptions used as the target pool for matching.
 - **Column(s) used:** `Job Title`, `Job Description`
 - **Source:** Kaggle
+  Link: https://www.kaggle.com/datasets/kshitizregmi/jobs-and-job-description 
 
+---
+## Dataset Construction
+
+The original datasets were not paired. A weakly supervised dataset was constructed by:
+
+- Matching resumes to job descriptions based on similarity between the resume category and job title  
+- Sampling multiple negative job examples randomly for each resume  
+
+This process transformed the raw data into a supervised ranking task, enabling the evaluation of model performance using standard retrieval metrics.
 ---
 
 ## Pre-trained Models
