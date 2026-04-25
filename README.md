@@ -32,9 +32,8 @@ For more detailed setup instructions, see the [SETUP.md](https://github.com/avae
 
 ## Video Links
 
-- **Project Demo:** [(YouTube)](https://youtu.be/ci9cX-PPDNQ)
-- **Technical Walkthrough:** ([YouTube)](https://youtu.be/A0d5IiYUdtw)
-
+- **Project Demo:** [(YouTube)](https://youtu.be/ci9cX-PPDNQ) , [Github Download](https://github.com/avaexelbirt/CS-372-Final/blob/main/videos/Project%20Demo.mp4)
+- **Technical Walkthrough:** ([YouTube)](https://youtu.be/A0d5IiYUdtw) , [Github Download](https://github.com/avaexelbirt/CS-372-Final/blob/main/videos/Technical%20Walkthrough.mp4)
 ---
 
 ## Evaluation
