@@ -68,14 +68,15 @@ The system was evaluated using multiple metrics to assess ranking performance.
 
 ## Repository Structure
 
-
+```
 project/
-data/ # dataset files and data download script (load_resume_data.py)
-notebooks/ # main Colab notebook (final_project.ipynb)
-videos/ # demo and technical walkthrough videos
-ATTRIBUTION.md
-README.md
-SETUP.md
+  data/        # dataset files and data download script (load_resume_data.py)
+  notebooks/   # main Colab notebook (FinalProject.ipynb)
+  videos/      # demo and technical walkthrough videos
+  ATTRIBUTION.md
+  README.md
+  SETUP.md
+```
 
 
 ---
