@@ -18,7 +18,7 @@ All required Python libraries are installed automatically within the notebook.
 ### 1. Open the Notebook
 
 - Navigate to the `notebooks/` folder in this repository
-- Open `final_project.ipynb` in Google Colab
+- Download and open `FinalProject.ipynb` in Google Colab
 
 ---
 
