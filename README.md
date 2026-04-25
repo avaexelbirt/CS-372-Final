@@ -26,6 +26,8 @@ This project takes a resume as input and ranks a set of job descriptions based o
 - build and evaluate models  
 - display performance metrics and analysis  
 
+For more detailed setup instructions, see the [SETUP.md](https://github.com/avaexelbirt/CS-372-Final/blob/main/SETUP.md) file.
+
 ---
 
 ## Video Links
