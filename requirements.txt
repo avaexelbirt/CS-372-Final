@@ -1,0 +1,9 @@
+# Python dependencies for AI Resume Analyzer & Job Matcher
+# Included for reproducibility and dependency management
+
+pandas
+numpy
+scikit-learn
+sentence-transformers
+torch
+kagglehub
