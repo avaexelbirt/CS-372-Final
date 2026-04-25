@@ -20,7 +20,6 @@ All required Python libraries are installed automatically within the notebook.
 - Navigate to the `notebooks/` folder in this repository
 - Download and open `FinalProject.ipynb` in Google Colab
 
----
 
 ### 2. Prepare the Datasets
 
@@ -33,8 +32,6 @@ This project requires two datasets:
 - Action:
   - Download this file from the repository
   - You will upload it into Colab later
-
----
 
 #### Dataset 2: Resume Dataset
 
@@ -54,7 +51,6 @@ This will download the resume dataset from Kaggle.
 Alternatively, you can manually download it from:
 https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
 
----
 
 ### 3. Upload Data to Colab
 
@@ -69,7 +65,6 @@ Files → Upload
 - `Resume.csv`
 - `job_title_des.csv`
 
----
 
 ### 4. Run the Notebook
 
