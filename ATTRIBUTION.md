@@ -61,6 +61,7 @@ The original datasets were not paired. A weakly supervised dataset was construct
 | `re` | (stdlib) | PSF License | Regex-based text cleaning |
 | `string` | (stdlib) | PSF License | Punctuation removal |
 | `random` | (stdlib) | PSF License | Random sampling during dataset construction |
+| `matplotlib` | — | Matplotlib License | Error analysis visualizations |
 
 ---
 
