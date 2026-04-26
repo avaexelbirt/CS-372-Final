@@ -41,29 +41,29 @@ For more detailed setup instructions, see the [SETUP.md](https://github.com/avae
 The system was evaluated using multiple metrics to assess ranking performance.
 
 ### Validation Set Results
-- **Top-1 Accuracy:** ~22%  
-- **Top-3 Accuracy:** ~74%  
-- **Mean Reciprocal Rank (MRR):** ~0.51  
+- **Top-1 Accuracy:** 27.15%  
+- **Top-3 Accuracy:** 76.61%  
+- **Mean Reciprocal Rank (MRR):** 0.5370  
 
 ### Test Set Results
-- **Top-1 Accuracy:** ~24%  
-- **Top-3 Accuracy:** ~75%  
-- **Mean Reciprocal Rank (MRR):** ~0.50  
+- **Top-1 Accuracy:** 29.76%  
+- **Top-3 Accuracy:** 79.09%  
+- **Mean Reciprocal Rank (MRR):** 0.5585  
 
 ### Model Comparison
 
 | Model            | Accuracy (Validation) |
 |------------------|----------------------|
-| TF-IDF Baseline  | 24.19%               |
-| Embedding Model  | 23.39%               |
-| Hybrid Model     | 22.31%               |
+| TF-IDF Baseline  | 23.92%               |
+| Embedding Model  | 26.61%               |
+| Hybrid Model     | 27.15%               |
 
 ### Key Insights
 
-- The TF-IDF baseline performed competitively due to strong keyword overlap in the dataset.
-- The embedding model captures semantic meaning but is less aligned with the weakly constructed dataset.
-- The hybrid model combines both approaches but did not significantly outperform the baseline due to noisy label construction.
-- Despite lower Top-1 accuracy, the model achieves strong Top-3 performance (~75%), indicating it frequently ranks relevant jobs among top candidates.
+- The embedding-based model outperformed the TF-IDF baseline, showing that semantic similarity is valuable for resume-job matching.
+- The hybrid model achieved the best validation performance by combining lexical similarity (TF-IDF) with semantic similarity (sentence embeddings).
+- Hyperparameter tuning showed that the strongest validation result came from the hybrid model with a balanced weighting scheme.
+- The final model achieved 29.76% Top-1 Accuracy and 79.09% Top-3 Accuracy on the test set, indicating that it frequently ranks relevant jobs among the top candidates even when the exact top match is challenging.
 
 ---
 
